@@ -129,6 +129,24 @@ figcaption {
     min-width: 600px;
   }
 
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+  }
+
+  .container a {
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 15px;
+  }
+
+  .container a:hover {
+    color: hotpink;
+  }
+
 .float-right {
     float: right;
 }
@@ -141,3 +159,6 @@ figcaption {
     clear: both;
 }
 
+@media screen and (max-width: 768px) {
+    
+}
