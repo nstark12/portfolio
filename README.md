@@ -12,6 +12,11 @@ N/A
 
 To use this portfolio, click on any link in the navigation bar at the top to be directed to that section. In the "My Work" section, you can click on either the image or the link below to be directed to the deployed application.
 
+View screenshot of webpage below:
+![screenshot of Nicole Stark portfolio](./assets/images/portfolio-screenshot.png)
+
+Link to webpage: https://nstark12.github.io/portfolio/
+
 ## Credits
 
 N/A
