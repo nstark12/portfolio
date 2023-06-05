@@ -7,19 +7,24 @@
 }
 
 /* element selectors */
+
+/* styling of the link elements throughout the page */
 a {
     text-decoration: none;
     color: white;
 }
 
+/* adds a hover element to the link elements throughout the page */
 a:hover {
     color:darkmagenta;
 }
 
+/* styling of the unordered list in the navbar */
 ul {
     padding: 30px 25px;
 }
 
+/* styling of the list items in the navbar */
 ul li {
     display: inline;
     text-decoration: none;
@@ -28,17 +33,20 @@ ul li {
     font-size: 17px;
 }
 
+/* styles the header at the top that contains the heading and the navbar */
 header {
     background-color: hotpink;
     width: 100%;
     height: 80px;
 }
 
+/* styles any primary headings */
 header h1 {
     padding: 20px 25px;
     color: white;
 }
 
+/* styles any buttons throughout the page*/
 button {
     background-color: hotpink;
     border: solid 2px white;
@@ -47,6 +55,7 @@ button {
     width: 150px;
 }
 
+/* styles any secondary headings */
 main h2 {
     text-align: center;
     background-color: hotpink;
@@ -56,6 +65,7 @@ main h2 {
     padding: 25px
 }
 
+/* styles any image captions */
 figcaption {
     font-size: 25px;
     background-color: pink;
@@ -64,6 +74,8 @@ figcaption {
 }
 
 /* id selectors */
+
+/*  */
 #about {
     background-color: pink;
     width: 100%;
@@ -74,22 +86,26 @@ figcaption {
     margin-bottom: 80px;
 }
 
+/* styles the heading in the hero */
 #about h2 {
     font-size: 45px;
     margin-bottom: 40px;
 }
 
+/* styles the description in the hero */
 #about p {
     font-size: 30px;
     width: 90%;
 }
 
+/* styles the image in the hero */
 #about img {
     margin: 50px;
     box-shadow: 10px 10px 5px hotpink;
     width:50%;
 }
 
+/* styles the "My Work" section and makes it a flexbox */
 #work {
   display: flex;
   flex-wrap: wrap;
@@ -97,6 +113,8 @@ figcaption {
 }
 
 /* class selectors */
+
+/* styles the left side of the hero section */
 .intro {
     display: flex;
     flex-wrap: nowrap;
@@ -106,10 +124,12 @@ figcaption {
     width: 48%;
 }
 
+/* styles the image on the right side of the hero section */
 .intro-img {
     width: 48%
 }
 
+/* styles each flex item in the "My Work" section */
 .card {
     margin: 2%;
     text-align: center;
@@ -128,11 +148,13 @@ figcaption {
     flex: 1 1 0;
   }
 
+  /* styles the images in each card in the "My Work" section */
   .card img {
     width: 100%;
     min-width: 600px;
   }
 
+  /* styles the "contact" section */
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +162,7 @@ figcaption {
     margin: 2%;
   }
 
+  /* styles the links in the "contact" section */
   .container a {
     color: black;
     font-size: 30px;
@@ -147,10 +170,12 @@ figcaption {
     padding: 15px;
   }
 
+  /* gives the links in the "contact" section a hover element */
   .container a:hover {
     color: hotpink;
   }
 
+  /* float elements for header and nav bar */
 .float-right {
     float: right;
 }
@@ -165,41 +190,51 @@ figcaption {
 
 @media screen and (max-width: 768px) {
     /* responsive design for medium-sized devices */
+
+    /* changes the size of the primary header */
     header h1 {
         font-size: 25px;
         padding: 25px 30px 2px 25px;
     }
 
+    /* changes the size of the unordered list items to fit smaller screen width */
     ul li {
         font-size: 14px;
     }
     
+    /* gives button bigger margin */
     button {
         margin: 20px;
     }
     
+    /* changes size of secondary heading in hero section */
     #about h2 {
         font-size: 40px;
         padding: 20px;
     }
 
+    /* changes size of paragraph in hero section */
     #about p {
         font-size: 20px;
         padding: 20px;
     }
 
+    /* changes left side of hero to take up entire row at this screen width */
     .intro {
         width: 98%;
     }
 
+    /* changes right side of hero to take up entire row at this screen width */
     .intro-img {
         width: 98%;
     }
 
+    /* changes min-width of images within each card */
     .card img {
         min-width: 300px;
     }
 
+    /* changes size of links in contact section */
     .container a {
         font-size: 15px;
     }
@@ -208,11 +243,14 @@ figcaption {
 
 @media screen and (max-width: 500px) {
     /* responsive design for small devices */
+
+    /* makes the primary heading within the header smaller to fit small screen sizes */
     header h1 {
         font-size: 15px;
         padding: 30px 45px 2px 25px;
     }
 
+    /* makes the unordered list items smaller to fit smaller screen sizes */
     ul li {
         font-size: 10px;
     }
