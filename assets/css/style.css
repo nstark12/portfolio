@@ -6,6 +6,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* element selectors */
 a {
     text-decoration: none;
     color: white;
@@ -62,6 +63,7 @@ figcaption {
     padding: 10px;
 }
 
+/* id selectors */
 #about {
     background-color: pink;
     width: 100%;
@@ -94,6 +96,7 @@ figcaption {
   margin-top: 2%;
 }
 
+/* class selectors */
 .intro {
     display: flex;
     flex-wrap: nowrap;
@@ -113,6 +116,7 @@ figcaption {
     border: solid 10px pink;
   }
 
+  /* makes first flex item larger than the rest */
 .first {
     width: 100%;
   }
@@ -160,17 +164,7 @@ figcaption {
 }
 
 @media screen and (max-width: 768px) {
-
-    #about h2 {
-        font-size: 40px;
-        padding: 20px;
-    }
-
-    #about p {
-        font-size: 20px;
-        padding: 20px;
-    }
-
+    /* responsive design for medium-sized devices */
     header h1 {
         font-size: 25px;
         padding: 25px 30px 2px 25px;
@@ -182,6 +176,16 @@ figcaption {
     
     button {
         margin: 20px;
+    }
+    
+    #about h2 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    #about p {
+        font-size: 20px;
+        padding: 20px;
     }
 
     .intro {
@@ -203,6 +207,7 @@ figcaption {
 }
 
 @media screen and (max-width: 500px) {
+    /* responsive design for small devices */
     header h1 {
         font-size: 15px;
         padding: 30px 45px 2px 25px;
